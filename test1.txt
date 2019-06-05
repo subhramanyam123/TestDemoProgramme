@@ -1,0 +1,10 @@
+ Volume in drive C is SOE
+ Volume Serial Number is 707D-C469
+
+ Directory of C:\Users\smvsn\Desktop\New folder (3)
+
+05-06-2019  12:04    <DIR>          .
+05-06-2019  12:04    <DIR>          ..
+05-06-2019  12:04                 0 test1.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  354,540,187,648 bytes free
