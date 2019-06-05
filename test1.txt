@@ -1,10 +1,26 @@
- Volume in drive C is SOE
- Volume Serial Number is 707D-C469
-
- Directory of C:\Users\smvsn\Desktop\New folder (3)
-
-05-06-2019  12:04    <DIR>          .
-05-06-2019  12:04    <DIR>          ..
-05-06-2019  12:04                 0 test1.txt
-               1 File(s)              0 bytes
-               2 Dir(s)  354,540,187,648 bytes free
+class Constructor 
+	{ 
+	    int num= 10;
+	    String  name ;
+	  
+	    // this would be invoked while an object 
+	    // of that class is created. 
+	    Constructor() 
+	    { 
+	        System.out.println("Constructor called"); 
+	    } 
+	} 
+	  
+	class GFG 
+	{ 
+	    public static void main (String[] args) 
+	    { 
+	        // this would invoke default constructor. 
+	        Constructor c1 = new Constructor(); 
+	  
+	        // Default constructor provides the default 
+	        // values to the object like 0, null 
+	        System.out.println(c1.name); 
+	        System.out.println(c1.num); 
+	    } 
+	} 
